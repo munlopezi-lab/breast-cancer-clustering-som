@@ -21,11 +21,11 @@ X_scaled = scala.fit_transform(X)
 
 
 
-map_width = 20
-map_height = 11
+map_width = 15
+map_height = 15
 n_features = X.shape[1]  # número de características de entrada
-sigma = 1
-lr = 0.5
+sigma = 0.5
+lr = 0.05
 
 
 
